@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/list_action"
+        android:enabled="true"
+        android:title="favorites"
+        android:icon="@drawable/baseline_list_white_24"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/home_action"
+        android:enabled="true"
+        android:title="schedules"
+        android:icon="@drawable/baseline_home_white_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tag_action"
+        android:enabled="true"
+        android:icon="@drawable/baseline_local_offer_white_24"
+        android:title="music"
+        app:showAsAction="ifRoom" />
+</menu>
